@@ -1,0 +1,109 @@
+/* Estilos para la página de inicio */
+body {
+    background-color: #0000FF; /* Fondo azul */
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para el marquee */
+.marquee-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: yellow;
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Contenedor principal */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilo para el encabezado */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #FFD700; /* Color dorado */
+}
+
+/* Estilo para el menú de navegación */
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #333;
+    border-radius: 5px;
+}
+
+/* Estilo para las secciones */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 24px;
+    color: #FFD700;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    font-size: 18px;
+}
+
+/* Estilo para la imagen */
+.portada-img {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Estilo para el botón interactivo */
+button {
+    background-color: #FFD700;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    display: block;
+    margin: 20px auto;
+}
+
+button:hover {
+    background-color: #FFC300;
+}

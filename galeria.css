@@ -1,0 +1,46 @@
+/* Estilo general de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Contenedor de la galería */
+.galeria-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Título de la galería */
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo para la galería */
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+/* Estilo para las imágenes */
+.imagen {
+    width: 100%;
+    max-width: 300px;
+    border: 5px solid purple;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+/* Efecto cuando el usuario pasa el mouse sobre la imagen */
+.imagen:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
